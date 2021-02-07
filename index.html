@@ -1,89 +1,62 @@
-<html>
-	<head>
-		<title>;lgogin</title>
-<style>
-	@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-	body{
-		margin: 0;
-		border: 0;
-	}
-	.main{
-		display: flex;
-		justify-content: center;
-	}
-	.login{
-		/*background: red;*/
-		width: 25vw;
-		padding: 5ch;
-	}
-	.btn-login{
-		/*display: flex;
-		justify-content: flex-en;*/
-	}
-	.btn-login button{
-		font-size: 25px;
-		font-family: 'Nanum Gothic', sans-serif; 
-		font-weight: lighter;
-		font-style: italic;
-		background: blue;
-		padding: 5px 10px 5px 34px;
-		/* border-top: 25px solid red;
-	    border-right: 50px solid blue;*/
-	    /*width: 100%;*/
-	    clip-path: polygon(24% 0, 100% 0, 100% 100%, 0% 100%);
-	}
-	.btn-login > div > span >  button:hover, .btn-login > div:hover{
-		background: grey;
-		border-bottom: 2px solid grey;
-	}
-	/*.btn-login > div:hover{
-			border-bottom: 2px solid grey;
-	}*/
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Mustardus</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	.btn-login > div {
-		text-align: right;
-		border-bottom: 2px solid blue;
-	}
-	.inputs{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	.inputs > div{
-		margin: 2ch 0;
-	}
-	button, input{
-		background: none;
-		outline: none;
-		border: none;
-	}
-</style>
-	</head>
-	<body>
-		<div class="main">
-			<div class="login">
-				<div class="login-head">
-					<p>Login</p>
-				</div>
-				<div class="inputs">
-					<div>
-						<label>username</label>
-						<input type="text" name="nusenrama" />
-					</div>
-					<div>
-						<label>password</label>
-						<input type="password" name="pass">
-					</div>
-				</div>
-				<div class="btn-login">
-					<div>
-						<span>
-							<button>Login</button>
-						</span>
-					</div>
-				</div>
-			</div>
-		</div>
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-	</body>
+        <link rel="stylesheet" href="resources/css/style.css">
+    </head>
+    <body>
+    	<main>
+    		<div class="title">
+    			<span>Hello</span>
+    		</div>
+    	</main>
+    	<div class="body">
+    		<div class="left">
+                <div class="h-index"> 
+                    <div class="h-title">
+                        <span>Things I do</span>
+                    </div>
+                    <div class="h-content">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </span>
+                    </div>
+                </div>
+    		</div>
+    		<div class="right">
+    			<div class="index">
+    				<div class="index-title">
+                        <img src="resources/img/user.png" alt="icon" class="user-img">
+                    </div>
+    				<div class="index-content">
+                        <span>My Profile</span>
+    					<ul>
+    						<li>Student</li>
+    						<li>NEET</li>
+    					</ul>
+    				</div>
+                    
+                </div>
+                <div class="extra">
+                    <img src="resources/img/catoo.gif" width="250px" height="250px" alt="Cat gif">
+                    <div class="credits">
+                        <span>background image: BIBI - KAZINO (MV)</span>
+                    </div>
+                </div>
+    		</div>
+    	</div>
+    </body>
 </html>
