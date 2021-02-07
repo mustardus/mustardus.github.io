@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>;lgogin</title>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+	body{
+		margin: 0;
+		border: 0;
+	}
+	.main{
+		display: flex;
+		justify-content: center;
+	}
+	.login{
+		/*background: red;*/
+		width: 25vw;
+		padding: 5ch;
+	}
+	.btn-login{
+		/*display: flex;
+		justify-content: flex-en;*/
+	}
+	.btn-login button{
+		font-size: 25px;
+		font-family: 'Nanum Gothic', sans-serif; 
+		font-weight: lighter;
+		font-style: italic;
+		background: blue;
+		padding: 5px 10px 5px 34px;
+		/* border-top: 25px solid red;
+	    border-right: 50px solid blue;*/
+	    /*width: 100%;*/
+	    clip-path: polygon(24% 0, 100% 0, 100% 100%, 0% 100%);
+	}
+	.btn-login > div > span >  button:hover, .btn-login > div:hover{
+		background: grey;
+		border-bottom: 2px solid grey;
+	}
+	/*.btn-login > div:hover{
+			border-bottom: 2px solid grey;
+	}*/
+
+	.btn-login > div {
+		text-align: right;
+		border-bottom: 2px solid blue;
+	}
+	.inputs{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.inputs > div{
+		margin: 2ch 0;
+	}
+	button, input{
+		background: none;
+		outline: none;
+		border: none;
+	}
+</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="login">
+				<div class="login-head">
+					<p>Login</p>
+				</div>
+				<div class="inputs">
+					<div>
+						<label>username</label>
+						<input type="text" name="nusenrama" />
+					</div>
+					<div>
+						<label>password</label>
+						<input type="password" name="pass">
+					</div>
+				</div>
+				<div class="btn-login">
+					<div>
+						<span>
+							<button>Login</button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
