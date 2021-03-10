@@ -1,1 +1,1 @@
-A simple and updating web page.
+A simple web page that I'm trying to make. 
