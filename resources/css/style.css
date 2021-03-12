@@ -182,7 +182,7 @@
 		}
 		/*image*/
 		.profile-img > img {
-			width: 17em;
+			width: -webkit-fill-available;
 		}
 	}
 	
